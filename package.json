@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/valdes91/weather-app#readme",
   "dependencies": {
+    "encoding": "^0.1.13",
     "netlify-lambda": "^2.0.2",
     "node-fetch": "^2.6.1"
   }

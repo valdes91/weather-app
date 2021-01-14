@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ececec;
 }
 
@@ -41,8 +41,15 @@ body {
   background-color: #30475e;
   max-width: 60%;
   padding: 1.5rem;
+  align-items: center;
 }
 
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 main .container {
   margin-top: 25px;
   border: 2px solid #f2a365;
@@ -57,6 +64,9 @@ main .container {
   margin-top: 25px;
   border-radius: 15px;
 }
+.card > * {
+  margin-bottom: 10px;
+}
 
 header {
   background-color: #30475e;
@@ -64,6 +74,15 @@ header {
 
 .weather-icon {
   font-size: 1.5rem;
+}
+
+#temp {
+  text-shadow: #222831 5px 5px;
+  font-weight: 700;
+}
+
+#description {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=styles.css.map */
